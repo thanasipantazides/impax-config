@@ -1,0 +1,4 @@
+name: impax
+groundstations: config/targets/groundstations.yaml 
+spacecraft: config/spacecraft/impax.yaml
+simulation: config/simulation/sim.yaml

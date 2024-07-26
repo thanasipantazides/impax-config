@@ -1,0 +1,21 @@
+name: impax
+structure:
+  mass:   11 # kg
+  inertia:
+    - [2.0e-4,  0,  0]
+    - [0,  1.0e-4,  0]
+    - [0,  0,  4.0e-4] # kg . m^2
+  areas:  [0.03, 0.02, 0.18] # m^2
+  drag_coeffs:  [1.05, 1.05, 1.05]
+power:
+  capacity:         302400  # J (W s)
+  base_consumption: 22      # W
+  panels:
+    - 
+      normal:     [0.0, 0.0, -1.0]
+      efficiency: 0.295
+      area:       0.12072  # m
+data:
+  capacity:         64.0e+9    # bytes
+  base_production:  1.0e+6     # bps
+  base_transmit:    1.5e+6     # bps

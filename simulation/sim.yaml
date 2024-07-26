@@ -1,0 +1,17 @@
+time:
+  dt: 10     # s
+  start:
+    year:   2028
+    month:  1
+    day:    1
+    hour:   2
+    minute: 3
+    second: 4
+  duration: 86400    # s
+  # duration: 2592000    # s
+  # duration: 31536000    # s
+initial:
+  battery:  144000    # J
+  storage:  32.0e+9   # bytes
+  position: [6771.0e+3, 0, 0]          # m
+  velocity: [0.0, 2624.182, 7209.880]  # m/s
