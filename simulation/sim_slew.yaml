@@ -1,16 +1,14 @@
 time:
-  dt: 10     # s
+  dt: 0.01     # s
   start:
-    year:   2000
+    year:   2026
     month:  3
     day:    1
     hour:   2
     minute: 3
     second: 4
-  # duration: 86400    # 1 day, s
-  duration: 864000    # 10 day, s
-  # duration: 2592000    # s
-  # duration: 31536000    # s
+  duration: 100
+  # duration: 600
 initial:
   battery:  144000.0    # J
   storage:  32.0e+9   # bytes
